@@ -85,4 +85,10 @@ dependencies {
     kapt ("androidx.room:room-compiler:$roomVersion")
     testImplementation ("androidx.room:room-testing:$roomVersion")
     androidTestImplementation ("androidx.room:room-testing:$roomVersion")
+
+    // coil
+    implementation("io.coil-kt:coil-compose:2.5.0")
+
+    // extended icons
+    implementation ("androidx.compose.material:material-icons-extended:1.6.0-rc01")
 }
